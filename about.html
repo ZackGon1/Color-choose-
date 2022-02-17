@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body >
+        <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="home.html" id="navbar__logo">GoN.ZE</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__btn">
+            <button onclick="darkmode()"><a href="#" class="fas fa-adjust navbar__links btn" id="mood"></a></button>
+          </li>
+          <li class="navbar__item">
+            <a href="home.html" class="navbar__links" >Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="about.html" class="navbar__links" id="home-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="services.html" class="navbar__links" >Services</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="sing up.html" class="button">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+ <!-- About Section -->
+ <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
+      </div>
+      <div class="main__content">
+        <h1>What do we do?</h1>
+        <h2>We help people in Choosing there colors</h2>
+        <p>colour, also spelled color, the aspect of any object that may be described in terms of hue, lightness, and saturation. In physics, colour is associated specifically with electromagnetic radiation of a certain range of wavelengths visible to the human eye. . .</p>
+        <button class="main__btn"><a href="#">More about us</a></button>
+      </div>
+    </div>
+  </div>
+
+    <div class="footer__container" id="sign-up">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#" id="footer__logo">GoN.ZE</a>
+          </div>
+          <!-- <p class="website__rights">© GoN.ZE 2022.  copyright by Zack</p> -->
+          <h3>©<span>GoN.ZE</span>2022.<span>copyright by Zack</span></h3>
+
+          <div class="social__icons">
+            <a href="#" class="social__icon--link"><i class="fab fa-facebook" id="facebook"></i></a>
+            <a href="#" class="social__icon--link"><i class="fab fa-instagram" id="insta"></i></a>
+            <a href="#" class="social__icon--link"><i class="fab fa-linkedin" id="lkdn"></i></a>
+            <a href="#" class="social__icon--link"><i class="fab fa-youtube" id="ytb"></i></a>
+            <a href="#" class="social__icon--link"><i class="fab fa-twitter" id="twtr"></i></a>
+        </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
